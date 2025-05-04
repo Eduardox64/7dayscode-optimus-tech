@@ -25,12 +25,13 @@
     font-weight: 400;
     line-height: 1.4em;
     display: flex;
+    max-width: 62ch;
 }
 
 .experiencias {
     display: flex;
-    margin: 0 7em;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10em;
 }
 
 .experiencias__item-titulo {

@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.cabecalho__container {
+    display: flex;
+    gap: 9em;
+}
+
 .cabecalho__logo {
     display: flex;
     align-items: center;
