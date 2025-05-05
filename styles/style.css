@@ -59,7 +59,9 @@ table {
 	--cinza-secundario: #98A2B3;
 }
 
-body {
+body, html {
     font-family: var(--fonte);
     font-weight: 500;
+	width: 100%;
+	overflow-x: hidden;
 }

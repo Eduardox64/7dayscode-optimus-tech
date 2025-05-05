@@ -1,51 +1,104 @@
-.rodape {
-    background-color: var(--rodape);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5em 0;
-    gap: 1.65em;
+.rodape__desktop {
+  background-color: var(--rodape);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 0;
+  gap: 1.65em;
 }
 
 .rodape__titulo {
-    color: var(--cor-preto);
-    font-size: 36px;
-    font-weight: 600;
+  color: var(--cor-preto);
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .rodape__descricao {
-    color: var(--cor-cinza);
-    font-size: 20px;
-    font-weight: 400;
+  color: var(--cor-cinza);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .rodape__input::placeholder {
-    color: var(--cor-cinza);
-    font-size: 16px;
-    font-weight: 400;
+  color: var(--cor-cinza);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .rodape__input {
-    border: 1px solid #D0D5DD;
-    border-radius: 8px;
-    padding: 12px;
-    width: 315px;
-    margin-right: 0.8em;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 12px;
+  width: 315px;
+  margin-right: 0.8em;
 }
 
 .rodape__botao {
-    font-size: 16px;
-    border: 1px solid var(--cor-botao);
-    background-color: var(--cor-botao);
-    border-radius: 8px;
-    padding: 12px 20px;
-    text-decoration: none;
-    color: var(--cor-branco);
-    cursor: pointer;
+  font-size: 16px;
+  border: 1px solid var(--cor-botao);
+  background-color: var(--cor-botao);
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: var(--cor-branco);
+  cursor: pointer;
 }
 
 .rodape__copyright {
-    color: var(--cinza-secundario);
-    font-size: 16px;
-    font-weight: 400;
+  color: var(--cinza-secundario);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rodape__menu-mobile {
+  display: none;
+}
+
+.rodape__botao-flutuante {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .rodape {
+    padding: 1.5rem;
+  }
+
+  .rodape__desktop {
+    display: none;
+  }
+
+  .rodape__menu-mobile {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--rodape);
+    padding: 1rem;
+  }
+
+  .rodape__menu-mobile a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--cor-preto);
+  }
+
+  .rodape__botao-flutuante {
+    display: block;
+    position: fixed;
+    right: 0.2rem;
+    bottom: 5rem;
+  }
+
+  .rodape__botao-flutuante-imagem {
+    width: 3.3rem;
+    height: auto;
+  }
 }

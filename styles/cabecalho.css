@@ -51,3 +51,50 @@
     text-decoration: none;
     padding: 10px 18px;
 }
+
+@media (max-width: 425px) {
+    .cabecalho {
+    justify-content: space-between;
+    }
+    
+    .cabecalho__logo {
+        gap: 0.23em;
+    }
+
+    .cabecalho {
+        margin: 0.6rem;
+    }
+
+    .cabecalho__logo-imagem {
+        width: 1.4rem;
+        height: auto;
+    }
+
+    .cabecalho__logo-nome {
+        font-size: 0.84em;
+    }
+
+    .cabecalho__navegacao {
+        gap: 0.5em;
+    }
+
+    .cabecalho__navegacao-link {
+        font-size: 0.84em;
+    }
+
+    .cabecalho__navegacao{
+        display: none;
+    }
+
+    .cabecalho__botoes {
+        gap: 0.75em;
+    }
+
+    .cabecalho__botoes a {
+        font-size: 0.84em;
+    }
+ 
+    .cabecalho__botoes-cadastrar {
+        padding: 5px 9px;
+    }
+}
