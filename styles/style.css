@@ -64,4 +64,5 @@ body, html {
     font-weight: 500;
 	width: 100%;
 	overflow-x: hidden;
+	min-width: 320px;
 }

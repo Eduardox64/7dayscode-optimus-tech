@@ -230,3 +230,41 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .apresentacao {
+    margin: 5rem;
+  }
+
+  .apresentacao__descricao {
+    max-width: 45ch;
+  }
+
+  .experiencias {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .contratacoes__apresentacao {
+    margin: 7rem 0;
+  }
+
+  .contratacoes__apresentacao-imagem {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contratacoes__secoes-area {
+    text-align: center;
+  }
+
+  .relatos {
+    margin: 0;
+  }
+
+  .relatos__titulo {
+    margin: 1rem 1.5rem 2rem 1.5rem;
+    font-size: 1.5rem;
+  }
+}

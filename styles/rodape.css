@@ -102,3 +102,48 @@
     height: auto;
   }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .rodape {
+    padding: 1.5rem;
+  }
+
+  .rodape__desktop {
+    display: none;
+  }
+
+  .rodape__menu-mobile {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--rodape);
+    padding: 1rem;
+  }
+
+  .rodape__menu-mobile a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--cor-preto);
+  }
+
+  .rodape__botao-flutuante {
+    display: block;
+    position: fixed;
+    right: 0.2rem;
+    bottom: 5rem;
+  }
+
+  .rodape__botao-flutuante-imagem {
+    width: 3.3rem;
+    height: auto;
+  }
+}
