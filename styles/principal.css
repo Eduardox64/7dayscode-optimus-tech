@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   gap: 2.2em;
-  margin: 8em 35em;
+  margin: 8em 7em;
 }
 
 .apresentacao__subtitulo {
@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   gap: 10em;
+  margin: 0 7rem;
 }
 
 .experiencias__item-titulo {
@@ -266,5 +267,54 @@
   .relatos__titulo {
     margin: 1rem 1.5rem 2rem 1.5rem;
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .apresentacao {
+    margin: 5rem 1rem;
+  }
+
+  .experiencias {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 4rem;
+    margin: 0 1rem;
+  }
+
+  .experiencias__item-descricao {
+    max-width: 33ch;
+    width: 100%;
+  }
+
+  .contratacoes__apresentacao {
+    margin: 5rem 0;
+  }
+
+  .contratacoes__apresentacao-imagem {
+    margin: 0;
+  }
+
+  .contratacoes__secoes-area {
+    text-align: center;
+  }
+
+  .relatos__titulo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .apresentacao {
+    margin: 5rem 2rem;
+  }
+
+  .experiencias {
+    gap: 4rem;
+    margin: 0 1rem;
+  }
+
+  .contratacoes__apresentacao {
+    margin: 10rem 0 5rem 0;
   }
 }

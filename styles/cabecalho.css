@@ -20,7 +20,6 @@
 .cabecalho__navegacao {
   display: flex;
   align-items: center;
-  padding-right: 35em;
   gap: 2em;
 }
 
@@ -106,5 +105,29 @@
 
   .cabecalho__navegacao {
     display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cabecalho {
+    margin: 1rem;
+  }
+
+  .cabecalho__container {
+    gap: 1.5rem;
+  }
+
+  .cabecalho__navegacao {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .cabecalho {
+    margin: 1rem;
+  }
+
+  .cabecalho__navegacao {
+    padding: 0;
   }
 }
