@@ -43,14 +43,6 @@ A proposta original incluía a criação de uma página web **estática para des
 - Seção com depoimentos de colaboradores fictícios
 - Rodapé com informações adicionais
 
-## 🧰 Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- Flexbox
-- Media Queries
-- Responsividade Mobile First
-
 ## 🚀 Como executar o projeto
 
 ### 🔗 Acessar online
