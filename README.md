@@ -1,5 +1,16 @@
 # 🧠 Optimus Tech — Desafio Alura 7 Days of Code
 
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/>
+  <img src="https://img.shields.io/badge/Flexbox-000000?style=for-the-badge&logo=css3&logoColor=white" alt="Flexbox Badge"/>
+  <img src="https://img.shields.io/badge/Responsive%20Design-2196F3?style=for-the-badge&logo=css3&logoColor=white" alt="Responsive Design Badge"/>
+  <img src="https://img.shields.io/badge/Mobile--First-00C897?style=for-the-badge" alt="Mobile First Badge"/>
+  <img src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge"/>
+</p>
+
+---
+
 Este repositório contém o projeto desenvolvido durante a imersão **7 Days of Code** promovida pela [Alura](https://www.alura.com.br/), com foco em HTML e CSS. O desafio consistia em construir uma página institucional com base em um layout fornecido no Figma, visando o aprimoramento de boas práticas em marcação e estilização.
 
 <p align="center">
