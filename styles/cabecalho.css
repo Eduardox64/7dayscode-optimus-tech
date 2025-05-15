@@ -27,6 +27,11 @@
   text-decoration: none;
   color: var(--cor-cinza);
   font-size: 16px;
+  transition: transform 100ms linear;
+}
+
+.cabecalho__navegacao-link:hover {
+  transform: scale(1.06);
 }
 
 .cabecalho__botoes {
@@ -39,6 +44,11 @@
   color: var(--cor-cinza);
   font-size: 16px;
   text-decoration: none;
+  transition: transform 100ms linear;
+}
+
+.cabecalho__botoes-entrar:hover {
+  transform: scale(1.06);
 }
 
 .cabecalho__botoes-cadastrar {
@@ -49,7 +59,14 @@
   border-radius: 8px;
   text-decoration: none;
   padding: 10px 18px;
+  transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
+
+.cabecalho__botoes-cadastrar:hover {
+  transform: scale(1.06);
+  opacity: 0.93;
+}
+
 
 @media (max-width: 425px) {
   .cabecalho {

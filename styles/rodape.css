@@ -42,6 +42,12 @@
   text-decoration: none;
   color: var(--cor-branco);
   cursor: pointer;
+  transition: transform 100ms linear, opacity 200ms ease-in-out;
+}
+
+.rodape__botao:hover {
+  transform: scale(1.06);
+  opacity: 0.93;
 }
 
 .rodape__copyright {
